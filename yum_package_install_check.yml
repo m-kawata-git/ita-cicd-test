@@ -1,4 +1,4 @@
-- name: install the latest version of packages2
+- name: install the latest version of packages
   yum:
     name: "{{ item }}"
     state: latest
