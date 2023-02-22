@@ -5,4 +5,4 @@ exec_list:
   - expect: 'password:'
     exec: "{{ __loginpassword__ }}"
   - expect: 'root@'
-    exec: echo '{{ VAR_01 }}'
+    exec: echo 'test.'
