@@ -1,3 +1,0 @@
-- name: display data
-  shell: echo cicd_role_test >> /tmp/cicd_role_test001.txt
-  with_items: "{{ VAR_test1 }}"
