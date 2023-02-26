@@ -1,5 +1,5 @@
 conf:
-  timeout: 30
+  timeout: 15
 
 exec_list:
   - expect: 'password:'
