@@ -1,2 +1,2 @@
-VAR_value: {{ VAR_tpf_cicd_test }}
+VAR_val: {{ VAR_tpf_cicd_test }}
 
