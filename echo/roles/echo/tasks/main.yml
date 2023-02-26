@@ -1,3 +1,3 @@
-- name: display data
+- name: display data 001
   shell: echo cicd_test_role >> /tmp/cicd_test.txt
   with_items: "{{ VAR_test1 }}"
