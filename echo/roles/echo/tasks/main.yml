@@ -1,3 +1,3 @@
 - name: display data
-  shell: echo {{ item }} >> /tmp/test.txt
+  shell: echo cicd_test_role >> /tmp/cicd_test.txt
   with_items: "{{ VAR_test1 }}"
