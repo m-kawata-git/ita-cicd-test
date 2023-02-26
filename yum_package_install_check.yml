@@ -1,11 +1,11 @@
-- name: install the latest version of packages trplc
+- name: install the latest version of packages trplc 001
   yum:
     name: "{{ item }}"
     state: latest
   with_items:
     - "{{ VAR_packages }}"
 
-- name: Check yum list trplc
+- name: Check yum list trplc 001
   shell: yum list installed | grep "{{ item }}"
   register: result
   with_items:
